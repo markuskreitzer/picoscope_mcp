@@ -1,0 +1,26 @@
+[project]
+name = "picoscope-mcp"
+version = "0.1.0"
+description = "STDIO MCP server for communicating with PicoScope Oscilloscopes"
+readme = "README.md"
+authors = [
+    { name = "Markus Kreitzer", email = "473311+markuskreitzer@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=2.12.4",
+    "numpy>=2.3.3",
+    "picosdk>=1.1",
+]
+
+[project.scripts]
+picoscope-mcp = "picoscope_mcp.server:main"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.4,<0.9.0"]
+build-backend = "uv_build"
