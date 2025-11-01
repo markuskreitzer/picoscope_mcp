@@ -6,6 +6,10 @@
 
 A STDIO MCP server that enables LLMs like Claude to interact with PicoScope oscilloscopes for signal acquisition, measurement, and analysis. Built with FastMCP and the official PicoSDK Python bindings.
 
+<a href="https://glama.ai/mcp/servers/@markuskreitzer/picoscope_mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@markuskreitzer/picoscope_mcp/badge" alt="PicoScope Server MCP server" />
+</a>
+
 ## Features
 
 - **Device Management**: Auto-discover and connect to PicoScope devices
